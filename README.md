@@ -1,4 +1,4 @@
-# scala-calendar-events
+# ultriscalendar
 
 ## Domain modeling sample for event series
 
