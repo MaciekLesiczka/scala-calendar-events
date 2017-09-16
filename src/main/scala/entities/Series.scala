@@ -13,13 +13,12 @@ class Series(recurrence:Recurrence){
                            .filter(!shifts.contains(_))
                            .map(x=>new Event(x)) ++
                            shifts.values.filter(x=>dateRange.contains(x.date))
-     stream.toList
+    stream.toList
   }
 
   def shift(fromTo: (LocalDate, LocalDate)) = fromTo match {
     case (from,to) =>
      val maybeOriginalEvent = recurrence.getEventsSince(from).headOption
-     //val maybeShiftedEvent = shifts.getEventsSince(from).headOption
 
      if(eventExists(to)){
        throw new EventAlreadyExistsException
