@@ -6,9 +6,10 @@ This project is an example of modeling techniques in Scala. The domain in questi
 
 This sample doesn't take into consideration any architectural topics but rather implements the core logic that can be good starting point for building application on top of it: persistence, UI/management module, alerting etc.
 
-This is a port of domain from indetical project written in C# 5.0 that can be found here: https://github.com/MaciekLesiczka/ultricalendar/tree/master/Ultricalendar.Domain
+This is a port of domain from identical project written in C# 5.0 that can be found here: https://github.com/MaciekLesiczka/ultricalendar/tree/master/Ultricalendar.Domain
 
-## Example - infinite weekly events with one event instance shift
+
+### Example - infinite weekly events with one event instance shift
 
 Let's create an event that, starting from September 18th, 2017, will occur every every other week, on Tuesday and Friday. Series never ends. Additionally, an event on January 26th, 2018 is moved to one day before. Let's print all events in January 2018:
 
