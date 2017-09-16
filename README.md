@@ -4,9 +4,9 @@
 
 This project is an example of modeling techniques in Scala. The domain in question is event series that are one of the most important features of calendar applications like Outlook or Google Calendar. The project shows approach to recurring events that can be occasionally shifted. 
 
-This sample doesn't take into consideration any architectural topics but rather implements the core logic that can be good starting point for building application on top of it: persistence, UI/management module, alerting etc.
+This sample doesn't take into consideration any architectural topics but rather implements the core logic that can be good starting point for building an application on top of it: persistence, UI/management module, alerting etc.
 
-This is a port of domain from identical project written in C# 5.0 that can be found here: https://github.com/MaciekLesiczka/ultricalendar/tree/master/Ultricalendar.Domain
+This is a port from identical project written in C# 5.0 that can be found here: https://github.com/MaciekLesiczka/ultricalendar/tree/master/Ultricalendar.Domain
 
 
 ### Example - infinite weekly events with one event instance shift
