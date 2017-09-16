@@ -10,7 +10,7 @@ This is a port of domain from indetical project written in C# 5.0 that can be fo
 
 ## Example - infinite weekly events with one event instance shift
 
-Let's create an event that, starting from 18th Jan 2017, will be occur every Tuesday and Friday every other week. Series never ends. Additionally, event on Friday, 26th January 2018 is moved to one day before. Let's print all events in January 2018:
+Let's create an event that, starting from September 18th, 2017, will occur every every other week, on Tuesday and Friday. Series never ends. Additionally, an event on January 26th, 2018 is moved to one day before. Let's print all events in January 2018:
 
 ``` scala
 import org.joda.time._
